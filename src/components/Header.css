@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 75px 0 75px;
+  padding-bottom: 0px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  font-size: 24px;
+  list-style: none;
+}
