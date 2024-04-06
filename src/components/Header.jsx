@@ -6,7 +6,7 @@ const Header = () => {
       <img src= "src/images/LOGO-kasa.png" alt="logo Kasa"/>
       <nav>
         <ul>
-          <li>Acceuil</li>
+          <li>Accueil</li>
           <li>A propos</li>
         </ul>
       </nav>
