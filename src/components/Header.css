@@ -11,6 +11,21 @@ nav ul {
   gap: 50px;
 }
 
+nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34.22px;
+  text-align: right;
+}
+a.underline {
+  text-decoration: underline;
+}
+
+
+
 li {
   font-size: 24px;
   list-style: none;
