@@ -1,10 +1,12 @@
 import React from 'react';
+import "./Homepage";
 
 const About = () => {
   return (
-    <div>
-      <h1> à propos</h1>
-    </div>
+    <div className='banner'>
+        <img src="src\images\Image-source-2.png" alt="bannière" className='banner-image'/>
+        <div className="opacity"></div>
+      </div>
   );
 };
 

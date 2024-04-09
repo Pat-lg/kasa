@@ -4,6 +4,8 @@
   align-items: center;
   padding: 45px 75px 0 75px;
   padding-bottom: 0px;
+  max-width: 1240px;
+  margin: auto;
 }
 
 nav ul {
