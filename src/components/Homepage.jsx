@@ -1,14 +1,14 @@
 import React from 'react';
-import "./Homepage.css";
+import Banner from './Banner/Banner';
+
 const Homepage = () => {
   return (
-    
-      <div className='banner'>
-        <img src="src\images\Image-source-1.png" alt="bannière" className='banner-image'/>
-        <div className="opacity"></div>
-        <h1>Chez vous, partout et ailleurs</h1>
-      </div>
-    
+    <>
+    <Banner
+        src="src/images/Image-source-1.png" 
+        overlayText="Chez vous, partout et ailleurs" 
+    />
+    </>
   );
 };
 
