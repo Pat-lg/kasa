@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes,Route } from "react-router-dom";
-import Header from "./Header/Header";
+import Header from "../components/Header/Header";
 import Homepage from "./Homepage";
 import About from "./About";
-import Footer from "./Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 const App = () => {
   return (
