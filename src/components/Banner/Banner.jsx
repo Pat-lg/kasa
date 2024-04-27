@@ -2,6 +2,7 @@ import React from 'react';
 import './Banner.css';
 
 const Banner = ({ src, overlayText }) => {
+
   if (overlayText) {
     return (
       <div className='banner'>
@@ -11,6 +12,7 @@ const Banner = ({ src, overlayText }) => {
       </div>
     );
   };
+
   return (
     <div className='banner'>
       <img src={src} alt="bannière" className='banner-image' />
