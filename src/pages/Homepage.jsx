@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../components/Banner/Banner';
 import locations from "../data/data.json";
 import Gallery from '../components/Gallery/Gallery';
-
+import './Homepage.css';
 const Homepage = () => {
   return (
     <>

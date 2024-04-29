@@ -1,11 +1,21 @@
-const RentalCard = ({ location }) => {
+import React from 'react';
+import './Rentalcard.css';
+import { useParams } from 'react-router-dom';
+import locations from "../../data/data.json";
+
+const Rentalcard = () => {
+  let {id} = useParams();
+
+  let rentalCard =locations.find((rental) => rental.id === id);
+  console.log(rentalCard);
+  
   return (
-    <div>
-      <h1>{location.title}</h1>
-      <img src={location.cover} alt={`photo ${location.title}`} />
-      <p>Other details of the location...</p>
-    </div>
+
+    <figure className="card">
+      <img className='card-img' src="" alt="carousel images appartement" />
+      <figcaption className='figure-title'></figcaption>
+    </figure>
   );
 };
 
-export default RentalCard;
+export default Rentalcard;
