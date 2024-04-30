@@ -8,7 +8,7 @@ const Gallery = ({ locations }) => {
       {locations.map((location) => (
         <div key={`routePaths${location.id}`} className="location">
           <NavLink to={`/logement/${location.id}`}>
-            <img src={location.cover} alt={`photo ${location.title}`} />
+            <img src={location.cover} alt={location.title}/>
             <h2 key={`${location.id}`}>{location.title}</h2>
           </NavLink>
         </div>
